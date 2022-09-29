@@ -277,7 +277,7 @@ select {
   max-width: 776px;
 }
 .sidebar {
-  max-width: 272px;
+  width: 272px;
 }
 .main_article {
   display: flex;
@@ -910,7 +910,10 @@ select {
 		border: none;
 		height: 19px;
 		background-color: transparent;
-		position: relative;
+		position: absolute;
+		right: 0;
+		top: 37px;
+		margin-right: 20px;
 		cursor: pointer;
 		padding: 0;
 	}
@@ -1049,15 +1052,20 @@ select {
   	width: 100%;
   	margin-bottom: 2px;
   }
+  .trend_header {
+  	width: 100%;
+  }
   .post_trend:nth-child(n+2) {
   	margin-left: 0px;
   }
   .main_article {
   	justify-content: center;
   }
+  .picture {
+  	width: 100%;
+  }
   .post_content {
   	width: 100%;
-  	max-width: 375px;
   	margin-left: 0px;
   }
   .main_article {
@@ -1074,8 +1082,6 @@ select {
   	margin-top: 25px;
   }
   .sidebar {
-  	margin-top: 44px;
-  	max-width: 375px;
   	width: 100%;
 		margin: 44px auto;
   }
